@@ -1,4 +1,4 @@
-package wordcount
+package main
 
 import (
 	"fmt"
@@ -6,7 +6,8 @@ import (
 	"strings"
 )
 
-func wordcount() {
+
+func main() {
 	s := os.Args[1]
 	v := strings.Fields(s)
 	fmt.Println(len(v))
